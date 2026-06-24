@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="106" viewBox="0 0 420 106" role="img" aria-labelledby="title desc">
+  <title id="title">iKontrol</title>
+  <desc id="desc">Identificador vectorial temporal de iKontrol en turquesa y morado.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12b8ad"/>
+      <stop offset="1" stop-color="#5b3fa6"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="102" height="102" rx="27" fill="url(#g)"/>
+  <circle cx="53" cy="29" r="8" fill="#fff"/>
+  <path d="M34 46h19v38H34zm25 0h18L59 64l19 20H55L42 68z" fill="#fff"/>
+  <text x="124" y="73" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="700" fill="#1b123a">iKontrol</text>
+</svg>
