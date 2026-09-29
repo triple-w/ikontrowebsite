@@ -1,0 +1,137 @@
+﻿/* ERP-specific layouts; shares Home tokens, Bootstrap navigation and motion. */
+.ik-erp .erp-hero{padding-bottom:0}
+.erp-hero-layout{display:grid;grid-template-columns:.92fr 1.08fr;gap:44px;align-items:center;padding-bottom:72px}
+.ik-erp .erp-stage{width:100%;height:430px}
+.erp-stage .b2-screen-composition{position:relative;height:100%;width:100%}
+.erp-main-screen{position:absolute;inset:25px -35px auto 0;background:#fff;border:7px solid #183c48;border-radius:12px;box-shadow:0 35px 80px #0006;overflow:hidden;transform:perspective(1200px) rotateY(-7deg)}
+.erp-main-screen img,.erp-float-screen img{display:block;width:100%;height:auto}
+.erp-main-screen figcaption{font-size:11px;padding:10px 14px;color:#315462;background:#edf6f6}
+.erp-main-screen figcaption span{display:inline-block;width:6px;height:6px;background:#00958f;border-radius:50%;margin-right:5px}
+.erp-float-screen{position:absolute;left:50px;right:-5px;top:270px;border:5px solid #27545e;border-radius:8px;overflow:hidden;box-shadow:0 24px 60px #0005;background:#123640;transform:rotate(-3deg)}
+.erp-float-screen img{max-height:140px;object-fit:cover;object-position:top}
+.erp-float-screen figcaption{font-size:11px;padding:7px 12px;color:#aee9e4}
+.erp-hero-link{display:inline-block;margin-top:24px;color:#a6dcd8;font-size:13px}
+.erp-value-strip{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #ffffff26;padding:27px 0;gap:22px}
+.erp-value-strip div{font-size:14px}
+.erp-value-strip span{color:#52d9ce;margin-right:12px;font-size:11px}
+.erp-split{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:start}
+.erp-fragments{display:flex;flex-wrap:wrap;gap:8px;margin:25px 0}
+.erp-fragments span{padding:9px 14px;background:#edf3f3;border-radius:4px;font-size:13px}
+.ik-erp .erp-statement{border-left:3px solid var(--ik-teal);padding-left:20px;font-size:20px;color:var(--ik-text)}
+.erp-areas,.erp-adaptation{background:var(--ik-surface)}
+.erp-section-heading{max-width:730px;margin-bottom:44px}
+.erp-area-layout{display:grid;grid-template-columns:1fr 1.55fr;border-top:1px solid var(--ik-line);gap:60px;padding-top:25px}
+.erp-tabs{display:flex;flex-direction:column}
+.erp-tabs button{display:flex;align-items:center;gap:18px;text-align:left;border:0;border-bottom:1px solid var(--ik-line);padding:20px 12px;background:transparent;color:var(--ik-text);font-size:18px}
+.erp-tabs button span{font-size:11px;color:var(--ik-teal)}
+.erp-tabs button b{margin-left:auto}
+.erp-tabs button[aria-selected=true]{background:var(--ik-navy);color:#fff;border-radius:5px}
+.erp-area-panels{padding:32px 0;display:flex;flex-direction:column;justify-content:space-between}
+.ik-erp .erp-area-panels h3{font-size:30px;max-width:430px}
+.erp-feature-list{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:28px 0}
+.erp-feature-list li{padding:8px 14px;background:#fff;border:1px solid var(--ik-line);border-radius:4px;font-size:14px}
+.erp-area-note{margin-top:38px;border-top:1px solid var(--ik-line);padding-top:22px;color:var(--ik-muted);font-size:14px}
+.erp-plans{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.erp-plans article{padding:38px;border:1px solid var(--ik-line);border-radius:12px;display:flex;flex-direction:column;align-items:start}
+.ik-erp .erp-plans h3{font-size:30px}
+.erp-plans .b2-button{margin-top:auto}
+.ik-erp .erp-plans .erp-price{font-size:30px;font-weight:650;letter-spacing:-1px;color:inherit;margin:12px 0 24px}
+.erp-plans .erp-pro{background:radial-gradient(at top right,#15565b,transparent 75%),var(--ik-navy);color:#fff}
+.erp-pro p{color:#bbd1d7}
+.erp-pro .b2-eyebrow{color:var(--ik-aqua)}
+.erp-comparison{margin-top:64px;scroll-margin-top:100px}
+.erp-table-wrap{border:1px solid var(--ik-line);border-radius:8px;overflow:auto}
+.erp-comparison table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:14px}
+.erp-comparison caption{caption-side:top;padding:16px;background:#f0f5f5;color:var(--ik-text)}
+.erp-comparison th,.erp-comparison td{padding:13px 20px;border-bottom:1px solid #e8eeee;vertical-align:middle}
+.erp-comparison thead{background:var(--ik-navy);color:#fff}
+.erp-comparison th:first-child{width:44%}
+.erp-comparison td:last-child{background:#00958f06}
+.erp-comparison tbody th{font-weight:500}
+.erp-comparison .erp-group th{font-weight:700;color:#087a77;background:#eef5f4;text-transform:uppercase;letter-spacing:.12em;font-size:11px;padding-block:10px}
+.erp-check{color:#087a77;font-weight:800}
+.erp-small{font-size:12px;margin-top:16px}
+.erp-growth{background:radial-gradient(at top left,#164850,transparent 70%),var(--ik-navy)!important}
+.erp-industry-list{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0}
+.erp-industry-list span{padding:14px 22px;border:1px solid var(--ik-line);border-radius:40px}
+.erp-industries p:last-child{max-width:850px}
+.erp-shot-tabs{display:flex;gap:10px;margin-bottom:24px}
+.erp-shot-tabs button{border:1px solid #ffffff40;background:transparent;color:#fff;padding:10px 22px;border-radius:30px}
+.erp-shot-tabs button[aria-selected=true]{background:var(--ik-aqua);color:var(--ik-navy);border-color:var(--ik-aqua)}
+.ik-erp .erp-gallery-stage{height:auto;min-height:0;width:100%;padding:0}
+.erp-gallery-stage figure{position:static;transform:none;margin:0;min-height:0}
+.erp-gallery-stage img{width:100%;height:auto;aspect-ratio:1916/948;object-fit:contain;object-position:top;background:#edf2f5;border:6px solid #284951;border-radius:10px;display:block}
+.erp-gallery-stage figcaption{font-size:12px;color:#aac9d0;padding-top:15px}
+.erp-process{display:grid;grid-template-columns:repeat(3,1fr);gap:38px;list-style:none;padding:0}
+.erp-process li{border-top:1px solid var(--ik-line);padding-top:24px}
+.erp-process li>span{display:block;color:var(--ik-teal);font-size:13px;margin-bottom:22px}
+.erp-process p{font-size:14px}
+.erp-faq details{border-bottom:1px solid var(--ik-line);padding:20px 0}
+.erp-faq summary{font-weight:600;cursor:pointer;padding-right:10px}
+.erp-faq details p{padding-top:16px;font-size:14px;margin-bottom:0}
+.erp-final{text-align:center;background:radial-gradient(ellipse at bottom,#15595d,transparent 70%),var(--ik-navy)!important}
+.erp-final .b2-actions{justify-content:center}
+.ik-erp [hidden]{display:none!important}
+.ik-erp button:focus-visible,.ik-erp summary:focus-visible{outline:3px solid var(--ik-teal);outline-offset:4px}
+.ik-erp [role=tabpanel]:not([hidden]){animation:erp-reveal .25s ease-out}
+@keyframes erp-reveal{from{opacity:.65;translate:0 5px}
+to{opacity:1;translate:0 0}
+}
+
+@media(max-width:1199px){.erp-hero-layout{gap:28px}
+.ik-erp .erp-stage{height:350px}
+.erp-float-screen{top:210px;left:25px}
+.erp-split{gap:45px}
+.erp-area-layout{gap:35px}
+.erp-main-screen{right:-12px}
+.erp-value-strip div{font-size:12px}
+}
+
+@media(max-width:991px){.erp-hero-layout{grid-template-columns:1fr;padding-bottom:35px}
+.ik-erp .erp-stage{max-width:700px;height:440px;margin:auto}
+.erp-main-screen{inset:15px 15px auto}
+.erp-float-screen{top:265px;left:110px;right:20px}
+.erp-split{grid-template-columns:1fr;gap:25px}
+.erp-area-layout{grid-template-columns:1fr 1.3fr;gap:25px}
+.erp-tabs button{font-size:15px}
+.erp-plans article{padding:28px}
+.erp-process{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:575px){.ik-erp .erp-hero{padding-top:125px}
+.ik-erp .erp-hero h1{font-size:2.7rem}
+.ik-erp .erp-stage{height:260px;margin-top:5px}
+.erp-main-screen{inset:0 4px auto;transform:none;border-width:4px}
+.erp-main-screen figcaption{font-size:9px;padding:7px}
+.erp-float-screen{top:145px;left:45px;right:0;border-width:3px}
+.erp-float-screen img{max-height:85px}
+.erp-float-screen figcaption{font-size:9px}
+.erp-value-strip{grid-template-columns:1fr 1fr;gap:16px}
+.erp-value-strip span{margin-right:6px}
+.erp-area-layout{grid-template-columns:1fr;gap:10px}
+.erp-tabs{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.erp-tabs button{padding:12px 8px;font-size:12px;gap:8px}
+.erp-tabs button b{display:none}
+.erp-area-panels{padding-top:20px}
+.erp-plans{grid-template-columns:1fr}
+.erp-plans article{padding:25px}
+.erp-comparison th,.erp-comparison td{padding:11px 7px;font-size:11px;overflow-wrap:break-word}
+.erp-comparison th:first-child{width:40%}
+.erp-comparison caption{font-size:12px}
+.erp-industry-list{gap:8px}
+.erp-industry-list span{padding:10px 15px;font-size:13px}
+.erp-shot-tabs{gap:6px}
+.erp-shot-tabs button{padding:9px 14px;font-size:12px}
+.erp-process{gap:20px}
+.ik-erp .erp-process h3{font-size:17px}
+.erp-process p{font-size:13px}
+.erp-gallery-stage img{border-width:3px}
+.erp-final h2{font-size:2rem}
+}
+
+@media(prefers-reduced-motion:reduce){.ik-erp [role=tabpanel]:not([hidden]){animation:none}
+}
+
+@media(max-width:575px){
+  .erp-comparison th,.erp-comparison td{font-size:13px;padding:12px 6px;line-height:1.45}
+}

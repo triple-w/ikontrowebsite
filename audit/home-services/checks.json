@@ -1,0 +1,95 @@
+[
+  {
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "anchors": [],
+    "images": [],
+    "overflow": [],
+    "cards": 7,
+    "h1": "Tecnología que impulsa y controla tu negocio."
+  },
+  {
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "anchors": [],
+    "images": [],
+    "overflow": [],
+    "cards": 7,
+    "h1": "Tecnología que impulsa y controla tu negocio."
+  },
+  {
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "anchors": [],
+    "images": [],
+    "overflow": [],
+    "cards": 7,
+    "h1": "Tecnología que impulsa y controla tu negocio."
+  },
+  {
+    "width": 390,
+    "client": 375,
+    "scroll": 375,
+    "anchors": [],
+    "images": [],
+    "overflow": [],
+    "cards": 7,
+    "h1": "Tecnología que impulsa y controla tu negocio."
+  },
+  {
+    "menuOpen": true
+  },
+  {
+    "menuClosed": true
+  },
+  {
+    "width": 320,
+    "client": 305,
+    "scroll": 305,
+    "anchors": [],
+    "images": [],
+    "overflow": [],
+    "cards": 7,
+    "h1": "Tecnología que impulsa y controla tu negocio."
+  },
+  {
+    "functional": {
+      "events": [
+        "client_login",
+        "contact_whatsapp",
+        "hero_whatsapp",
+        "hero_find_solution",
+        "solution_erp",
+        "solution_pos",
+        "solution_hardware",
+        "solution_security",
+        "ikontrol_landing",
+        "ikontrol_demo",
+        "services_click",
+        "solution_billing",
+        "solution_custom",
+        "contact_form_submit"
+      ],
+      "payloadKeys": [
+        "event",
+        "page"
+      ],
+      "invalid": true,
+      "status": "Tu información no se ha enviado. El envío por formulario aún no está disponible; contáctanos por WhatsApp.",
+      "whatsapp": true
+    }
+  },
+  {
+    "reducedMotion": true
+  },
+  {
+    "noJSFormDisabled": true
+  },
+  {
+    "errors": [],
+    "externalHosts": []
+  }
+]

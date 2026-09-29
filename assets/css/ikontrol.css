@@ -11,6 +11,67 @@
   --ik-shadow: 0 20px 60px rgba(39, 31, 82, 0.1);
 }
 
+/* Commercial Home only: shared software-page styles remain unchanged. */
+.ik-home .ik-brand small { display: block; margin-top: -4px; color: var(--ik-secondary); font-size: 12px; letter-spacing: .18em; text-align: right; }
+.ik-home .ik-hero { min-height: 720px; padding-bottom: 75px; }
+.ik-home .ik-hero h1 { font-size: clamp(2.6rem, 5vw, 4.7rem); line-height: 1.08; }
+.ik-home .ik-section { padding: 80px 0; }
+.ik-home .ik-section-heading { margin-bottom: 36px; }
+.ik-home .ik-card { display: flex; flex-direction: column; }
+.ik-home .ik-card .ik-text-link { margin-top: auto; padding-top: 22px; }
+.ik-home .ik-card p { padding-bottom: 12px; }
+.ik-home .ik-business-map { padding: clamp(24px, 3vw, 40px); border: 1px solid var(--ik-border); border-radius: 28px; background: linear-gradient(145deg, #fff, #f0f8f8); box-shadow: var(--ik-shadow); }
+.ik-home .ik-business-center { margin: 12px 0 28px; padding: 30px 15px; border-radius: 20px; background: var(--ik-secondary-deep); color: #fff; text-align: center; font-size: 2rem; font-weight: 800; }
+.ik-home .ik-business-center span { display: block; margin-top: 8px; color: #d2e9e7; font-size: .8rem; font-weight: 500; }
+.ik-home .ik-business-map ul { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; padding: 0; list-style: none; }
+.ik-home .ik-business-map li { padding: 16px 12px; border: 1px solid var(--ik-border); border-radius: 14px; background: #fff; font-weight: 700; }
+.ik-home .ik-business-map li i { display: block; color: var(--ik-primary-dark); font-size: 1.6rem; margin-bottom: 8px; }
+.ik-home .ik-business-map > p:last-child { color: var(--ik-muted); margin: 22px 0 0; }
+.ik-home .ik-area-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.ik-home .ik-area { border-top: 1px solid #c4d5d5; padding: 24px 8px; }
+.ik-home .ik-area > span { color: var(--ik-primary-dark); font-size: .85rem; font-weight: 700; }
+.ik-home .ik-area h3 { font-size: 1.25rem; margin: 12px 0; }
+.ik-home .ik-area p { color: var(--ik-muted); margin: 0; }
+.ik-home .ik-feature-title { font-size: clamp(2rem, 3.5vw, 3.25rem); letter-spacing: -.035em; line-height: 1.12; margin-bottom: 24px; }
+.ik-home .ik-product-summary ul { padding-left: 20px; margin: 24px 0; }
+.ik-home .ik-product-summary li { padding: 12px 0; border-bottom: 1px solid #ffffff26; }
+.ik-home .ik-closing-copy { max-width: 850px; margin: 30px auto 0; color: var(--ik-muted); text-align: center; }
+.ik-home .ik-pending-links { font-size: .85rem; }
+.ik-home .ik-pending-links small { display: block; color: #c2bdce; }
+.ik-home .ik-form fieldset:disabled { opacity: .72; }
+.ik-home .ik-form button:disabled, .ik-home fieldset:disabled button { cursor: not-allowed; transform: none; }
+.ik-home .progress-wrap { left: 22px; right: auto; background: #fff; border: 0; }
+.ik-home :is(a, button, input, textarea, select):focus-visible { outline: 3px solid #087f7a; outline-offset: 5px; }
+.ik-home :is(.ik-footer, .ik-section-dark) a:focus-visible { outline-color: #63e1d8; }
+.ik-skip-link { position: fixed; top: -100px; left: 20px; z-index: 200; padding: 12px 20px; background: #fff; color: #1b123a; }
+.ik-skip-link:focus { top: 10px; }
+/* AOS is progressive enhancement: content stays readable without JavaScript. */
+.ik-home [data-aos] { opacity: 1 !important; transform: none !important; }
+.ik-home [data-aos].aos-animate { animation: ik-home-reveal .45s ease both; }
+@keyframes ik-home-reveal { from { translate: 0 12px; } to { translate: 0 0; } }
+.ik-home .row.g-5 { --bs-gutter-x: 1.5rem; }
+.ik-home .navbar-toggler { min-width: 44px; min-height: 44px; font-size: 1.6rem; }
+.ik-home .ik-whatsapp-float { font-family: Arial, sans-serif; font-size: .85rem; font-weight: 800; }
+@media (max-width: 1199px) {
+  .ik-home .navbar-collapse { max-height: calc(100dvh - 120px); overflow-y: auto; }
+  .ik-home .navbar-collapse .ik-btn { margin: 10px 0; }
+}
+@media (max-width: 991px) {
+  .ik-home .ik-hero { padding-top: 155px; }
+  .ik-home .ik-area-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 575px) {
+  .ik-home .ik-section { padding: 56px 0; }
+  .ik-home .ik-hero-actions .ik-btn { width: 100%; }
+  .ik-home .ik-area-grid { grid-template-columns: 1fr; gap: 8px; }
+  .ik-home .ik-business-map { padding: 22px; }
+  .ik-home .ik-business-map li { font-size: .88rem; }
+  .ik-home .ik-footer { padding-bottom: 90px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ik-home *, .ik-home *::before, .ik-home *::after { animation: none !important; transition: none !important; }
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;

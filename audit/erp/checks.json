@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "scroll": 1425,
+      "viewport": 1440,
+      "h1": 1,
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "width": 1024,
+      "scroll": 1009,
+      "viewport": 1024,
+      "h1": 1,
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "scroll": 753,
+      "viewport": 768,
+      "h1": 1,
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "scroll": 375,
+      "viewport": 390,
+      "h1": 1,
+      "broken": [],
+      "overflow": []
+    },
+    {
+      "width": 320,
+      "scroll": 305,
+      "viewport": 320,
+      "h1": 1,
+      "broken": [],
+      "overflow": []
+    }
+  ],
+  "interactions": {
+    "events": [
+      {
+        "event": "client_login",
+        "page": "erp"
+      },
+      {
+        "event": "contact_whatsapp",
+        "page": "erp"
+      },
+      {
+        "event": "erp_hero_demo",
+        "page": "erp"
+      },
+      {
+        "event": "erp_whatsapp",
+        "page": "erp"
+      },
+      {
+        "event": "erp_starter_interest",
+        "page": "erp"
+      },
+      {
+        "event": "erp_pro_interest",
+        "page": "erp"
+      },
+      {
+        "event": "solution_custom",
+        "page": "erp"
+      },
+      {
+        "event": "erp_final_demo",
+        "page": "erp"
+      },
+      {
+        "event": "erp_whatsapp",
+        "page": "erp"
+      },
+      {
+        "event": "ikontrol_landing",
+        "page": "erp"
+      },
+      {
+        "event": "client_login",
+        "page": "erp"
+      },
+      {
+        "event": "erp_modules_view",
+        "page": "erp"
+      },
+      {
+        "event": "erp_screenshot_view",
+        "page": "erp"
+      }
+    ],
+    "area": true,
+    "shot": true,
+    "wa": true
+  },
+  "reduced": true,
+  "home": {
+    "oldLinks": 0,
+    "form": true,
+    "overflow": false
+  },
+  "errors": []
+}

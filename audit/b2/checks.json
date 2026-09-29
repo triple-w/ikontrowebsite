@@ -1,0 +1,185 @@
+[
+  {
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "missingAnchors": [],
+    "images": [],
+    "overflow": [],
+    "counter": "\n                18\n              ",
+    "h1": [
+      "Tecnología para tener el control de tu negocio."
+    ],
+    "font": "\"Segoe UI\", Arial, sans-serif"
+  },
+  {
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "missingAnchors": [],
+    "images": [],
+    "overflow": [],
+    "counter": "\n                18\n              ",
+    "h1": [
+      "Tecnología para tener el control de tu negocio."
+    ],
+    "font": "\"Segoe UI\", Arial, sans-serif"
+  },
+  {
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "missingAnchors": [],
+    "images": [],
+    "overflow": [],
+    "counter": "\n                18\n              ",
+    "h1": [
+      "Tecnología para tener el control de tu negocio."
+    ],
+    "font": "\"Segoe UI\", Arial, sans-serif"
+  },
+  {
+    "width": 390,
+    "client": 375,
+    "scroll": 375,
+    "missingAnchors": [],
+    "images": [],
+    "overflow": [],
+    "counter": "\n                18\n              ",
+    "h1": [
+      "Tecnología para tener el control de tu negocio."
+    ],
+    "font": "\"Segoe UI\", Arial, sans-serif"
+  },
+  {
+    "menuOpen": true
+  },
+  {
+    "escapeCloses": true
+  },
+  {
+    "anchorClosesMenu": true
+  },
+  {
+    "width": 320,
+    "client": 305,
+    "scroll": 305,
+    "missingAnchors": [],
+    "images": [],
+    "overflow": [],
+    "counter": "\n                18\n              ",
+    "h1": [
+      "Tecnología para tener el control de tu negocio."
+    ],
+    "font": "\"Segoe UI\", Arial, sans-serif"
+  },
+  {
+    "interactions": {
+      "events": [
+        {
+          "event": "client_login",
+          "page": "home"
+        },
+        {
+          "event": "contact_whatsapp",
+          "page": "home"
+        },
+        {
+          "event": "hero_find_solution",
+          "page": "home"
+        },
+        {
+          "event": "hero_whatsapp",
+          "page": "home"
+        },
+        {
+          "event": "solution_erp",
+          "page": "home"
+        },
+        {
+          "event": "solution_pos",
+          "page": "home"
+        },
+        {
+          "event": "solution_billing",
+          "page": "home"
+        },
+        {
+          "event": "solution_security",
+          "page": "home"
+        },
+        {
+          "event": "solution_hardware",
+          "page": "home"
+        },
+        {
+          "event": "solution_custom",
+          "page": "home"
+        },
+        {
+          "event": "ikontrol_landing",
+          "page": "home"
+        },
+        {
+          "event": "ikontrol_demo",
+          "page": "home"
+        },
+        {
+          "event": "solution_custom",
+          "page": "home"
+        },
+        {
+          "event": "services_click",
+          "page": "home"
+        },
+        {
+          "event": "contact_whatsapp",
+          "page": "home"
+        },
+        {
+          "event": "client_login",
+          "page": "home"
+        },
+        {
+          "event": "contact_whatsapp",
+          "page": "home"
+        },
+        {
+          "event": "contact_form_submit",
+          "page": "home"
+        }
+      ],
+      "invalid": false,
+      "formStatus": "Tu información no se ha enviado. El envío por formulario aún no está disponible; contáctanos por WhatsApp.",
+      "wa": true,
+      "demo": "https://wa.me/524779194384?text=Hola%2C%20vi%20iKontrol%20en%20su%20p%C3%A1gina%20y%20me%20gustar%C3%ADa%20conocer%20el%20sistema."
+    }
+  },
+  {
+    "reducedMotion": {
+      "enabled": false,
+      "counter": "\n                18\n              ",
+      "animation": "none"
+    }
+  },
+  {
+    "rootAndReducedMotion": {
+      "title": "iKontrol Solutions | Tecnología para el control de tu negocio",
+      "enabled": false,
+      "counter": "\n                18\n              ",
+      "heroOpacity": "1"
+    }
+  },
+  {
+    "noJS": {
+      "formDisabled": true,
+      "heroOpacity": "1"
+    }
+  },
+  {
+    "errors": [],
+    "failures": [],
+    "fontshareRequests": [],
+    "externalHosts": []
+  }
+]

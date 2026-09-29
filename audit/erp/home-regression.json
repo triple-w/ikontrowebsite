@@ -1,0 +1,16 @@
+{
+  "menu": true,
+  "closed": true,
+  "form": {
+    "valid": true,
+    "status": "Tu información no se ha enviado. El envío por formulario aún no está disponible; contáctanos por WhatsApp.",
+    "events": [
+      {
+        "event": "contact_form_submit",
+        "page": "home"
+      }
+    ],
+    "url": "http://127.0.0.1:8123/index.html"
+  },
+  "nojs": true
+}
